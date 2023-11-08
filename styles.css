@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 0.3em;
+    border-radius: 40px;
     background-color: #eaeaea;
 
 
@@ -39,7 +39,12 @@ body {
   
   .result {
     text-align: center;
-  }
+    font-size: 20px; /* adjust as needed */
+    color: #f83600; /* adjust as needed */
+    font-family: Arial, sans-serif; /* adjust as needed */
+    padding: 10px; /* adjust as needed */
+    border-radius: 100px; /* adjust as needed */
+}
   
   button {
     border-radius: 0.3em;
@@ -51,6 +56,9 @@ body {
     font-size: 16px;
     letter-spacing: 0.1em;
     box-shadow: 2px 2px 4px #000000;
+    display: block;
+    margin: 0 auto;
+
 
   }
 

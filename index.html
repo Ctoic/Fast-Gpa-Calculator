@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>GPA Calculator</h1>
+  <form id="gpaForm">
+    <div class="subject">
+      <label for="creditHours1">Credit Hours (Subject 1):</label>
+      <input type="number" id="creditHours1" min="0">
+    </div>
+    <div class="subject">
+      <label for="points1">Points Earned (Subject 1):</label>
+      <input type="number" id="points1" min="0">
+    </div>
+    <div class="subject">
+      <label for="creditHours2">Credit Hours (Subject 2):</label>
+      <input type="number" id="creditHours2" min="0">
+    </div>
+    <div class="subject">
+      <label for="points2">Points Earned (Subject 2):</label>
+      <input type="number" id="points2" min="0">
+    </div>
+    <!-- Add more subject input fields as needed -->
+    <div class="subject">
+        <label for="creditHours3">Credit Hours (Subject 3):</label>
+        <input type="number" id="creditHours3" min="0">
+    </div>
+    <div class="subject">
+        <label for="points3">Points Earned (Subject 3):</label>
+        <input type="number" id="points3" min="0">
+    </div>
+    <div class="subject">
+        <label for="creditHours4">Credit Hours (Subject 4):</label>
+        <input type="number" id="creditHours4" min="0">
+    </div>
+    <div class="subject">
+        <label for="points4">Points Earned (Subject 4):</label>
+        <input type="number" id="points4" min="0">
+    </div>
+    <div class="subject">
+        <label for="creditHours5">Credit Hours (Subject 5):</label>
+        <input type="number" id="creditHours5" min="0">
+    </div>
+    <div class="subject">
+        <label for="points5">Points Earned (Subject 5):</label>
+        <input type="number" id="points5" min="0">
+    </div>
+    <div class="subject">
+        <label for="creditHours6">Credit Hours (Subject 6):</label>
+        <input type="number" id="creditHours6" min="0">
+    </div>
+    <div class="subject">
+        <label for="points6">Points Earned (Subject 6):</label>
+        <input type="number" id="points6" min="0">
+    </div>
+
+
+        
+    <div class="result">
+      <p>Your GPA: <span id="gpaResult">0.00</span></p>
+    </div>
+    <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+    
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

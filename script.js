@@ -23,15 +23,19 @@ function calculateGPA() {
     const totalPointsEarned = nepoint1 + nepoint2 + nepoint3 + nepoint4 + nepoint5 + nepoint6; // Add more points as needed
   
     const gpa = totalPointsEarned / totalCreditHours;
-    // if Gpa is > 2 then you pass else you fail
-    if (gpa > 2) {
+    // if Gpa is > 2 then you print you are safe else you are on warning 
+    if (gpa > 2){
       document.getElementById("gpaResult").style.color = "green";
-      document.getElementById("gpaResult").textContent = gpa.toFixed(2);
-    } else {
-      document.getElementById("gpaResult").style.color = "red";
-      document.getElementById("gpaResult").textContent = gpa.toFixed(2);
+      document.getElementById("gpaResult").textContent = gpa.toFixed(2) + " You are safe";
     }
+    else{
+      document.getElementById("gpaResult").style.color = "green";
+      document.getElementById("gpaResult").textContent = gpa.toFixed(2) + " You are on warning";
+    }
+
+
+    
   
- //   document.getElementById("gpaResult").textContent = gpa.toFixed(2);
+    //document.getElementById("gpaResult").textContent = gpa.toFixed(2);
   }
   

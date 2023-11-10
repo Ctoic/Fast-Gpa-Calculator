@@ -33,6 +33,20 @@ function calculateGPA() {
       document.getElementById("gpaResult").textContent = gpa.toFixed(2) + " You are on warning";
     }
 
+    // calculating CGPA 
+    function calculateCGPA() {
+      const sgpa1 = parseFloat(document.getElementById("sgpa1").value);
+      const sgpa2 = parseFloat(document.getElementById("sgpa2").value);
+      // Add more SGPA variables as needed
+    
+      const totalSemesters = 2; // Change this based on the number of semesters
+      const totalSGPA = sgpa1 + sgpa2; // Add more SGPA variables as needed
+    
+      const cgpa = totalSGPA / totalSemesters;
+      document.getElementById("cgpaResult").textContent = `Your CGPA: ${cgpa.toFixed(2)}`;
+    }
+    
+
 
     
   
